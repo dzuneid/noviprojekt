@@ -4,18 +4,31 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.naslov {
-  position: relative;
-  top: 0;
+
+.menuBar {
+  position: fixed;
+  width: 100%;
 }
+
+.menuBarSecond {
+  background-color: white;
+}
+
 .prvi {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding-top: 35px;
   padding-bottom: 35px;
   padding-left: 8%;
   padding-right: 17%;
+  /*kad imas ovako vise padding onda mozes i ovako napisati
+  padding: 35px 8px 35px 17px;
+  znaci ide kao kazaljka na satu: prvo je top, right, botom,left 
+  
+  */
+
   height: 30px;
   width: 100%;
   background: rgb(240, 145, 1);
@@ -40,6 +53,7 @@ h5 {
   font-weight: bold;
   justify-content: space-between;
   font-size: 20px;
+  background-color: white;
 }
 h1 {
   font-size: 70px;
