@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.naslov {
+  position: relative;
+  top: 0;
+}
+.prvi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 8%;
+  padding-right: 17%;
+  height: 30px;
+  width: 100%;
+  background: rgb(240, 145, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h4 {
+  transform: translateX(-300%);
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  transform: translateX(400%);
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav {
+  padding-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: space-between;
+  font-size: 20px;
+}
+h1 {
+  font-size: 70px;
+}
+h6 {
+  color: rgb(247, 244, 244);
+  background: rgb(240, 145, 3);
+  display: inline;
+}
+span {
+  color: rgb(240, 145, 3);
+}
+.nav2 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 20px;
+  transform: translateX(400%);
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+.refko {
+  background-image: url(./majden-usklue.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.jedan {
+  text-align: center;
+  padding-top: 50px;
+  border: 1px solid solid;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.dugme {
+  padding-top: 30px;
+  text-align: center;
+}
+button {
+  background: transparent;
+  font-size: 30px;
+  border: 2px solid rgb(61, 56, 56);
+}
+.tekst {
+  color: white;
+  border-radius: 30%;
+  height: 45px;
+}
+.service {
+  background: #e4dcdc;
+  width: 100%;
+  padding-top: 10px;
+}
+.title h2 {
+  color: white;
+  font-size: 45px;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 40px 0px;
+  background: #726363;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+img {
+  height: 200px;
+}
+h3 {
+  color: rgb(248, 247, 247);
+  font-size: 30px;
+}
+.pra p {
+  color: rgba(253, 251, 253, 0.8);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.partneri {
+  height: 500px;
+  background: rgb(175, 164, 164);
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.slike img {
+  height: 120px;
+}
+.partneri h2 {
+  color: white;
+  font-size: 45px;
+  text-decoration: dashed;
+}
+.kraj {
+  height: 600px;
+  background: #141414;
+  color: wheat;
+}
+.kraj h1 {
+  padding: 60px;
+  font-size: 40px;
+  transform: translateX(20%);
+  letter-spacing: 4px;
+}
+
+.broj {
+  padding-left: 60%;
+  transform: translateY(-180%);
+  font-size: 30px;
+}
+p {
+  color: wheat;
+  font-size: 20px;
+}
+.kraj img {
+  height: 300px;
+  transform: translateX(40%);
+}
