@@ -116,6 +116,7 @@ button {
   background: #e4dcdc;
   width: 100%;
   padding-top: 10px;
+  height: auto;
 }
 .title h2 {
   color: white;
@@ -128,7 +129,7 @@ button {
 .box {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 20px;
 }
 .card {
   height: 365px;
