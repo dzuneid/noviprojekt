@@ -6,12 +6,12 @@
 }
 
 .menuBar {
-  position: fixed;
   width: 100%;
 }
 
 .menuBarSecond {
   background-color: white;
+  /* position: fixed; */
 }
 
 .prvi {
